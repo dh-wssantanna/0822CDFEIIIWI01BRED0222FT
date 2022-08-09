@@ -1,0 +1,10 @@
+
+# Qualquer arquivo com essas extensões será ignorado
+*.psd
+*.ai
+*.pdf
+
+# Pastas ignoradas
+*/**/node_modules/
+node_modules/
+build/
