@@ -36,26 +36,19 @@ export default function App() {
 			<section>
 				<h2>Filtrar dos os usuários com idade inferor a 25</h2>
 				<ul>
-					{usuarios.filter((usuarioAtual) => {
+					{usuarios.filter((usuarioAtual, indice) => {
 						if (usuarioAtual.idade < 25) {
-							<li>Indice {indice}: {usuarioAtual.nome} - {usuarioAtual.idade}</li>
+							<li key={indice}>Indice {indice}: {usuarioAtual.nome} - {usuarioAtual.idade}</li>
 						}
 					})}
 				</ul>
 			</section>
 			<section>
-				<h2>Retornar o usuário com maior idade</h2>
+				<h2>Retornar o usuário pela id 2</h2>
 				<ul>
-					{usuarios.find((usuarioAtual, indice, listaUsuarios) => {
-						let idadeDoUsuarioAnterior = listaUsuarios[indice - 1].idade;
-						/**
-							idadeDoUsuarioAnterior.idade(null = 0) > usuarioAtual.idade(31) false
-							idadeDoUsuarioAnteror.idade(31) > usuarioAtual.idade(19) true
-							idadeDoUsuarioAnteror.idade(19) > usuarioAtual.idade(25) false
-							idadeDoUsuarioAnteror.idade(25) > usuarioAtual.idade(21) true
-						 */
-						if (idadeDoUsuarioAnterior > usuarioAtual.idade) {
-							<li>Indice {indice}: {usuarioAtual.nome} - {usuarioAtual.idade}</li>
+					{usuarios.find((usuarioAtual, indice) => {
+						if (usuarioAtual.id == 2) {
+							<li key={indice}>Indice {indice}: {usuarioAtual.nome} - {usuarioAtual.idade}</li>
 						}
 					})}
 				</ul>
