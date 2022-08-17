@@ -30,7 +30,9 @@ export default function App() {
 			<section>
 				<h2>Mapear todos os valores</h2>
 				<ul>
-					{usuarios.map((usuarioAtual, indice) => <li>Indice {indice}: {usuarioAtual.nome} - {usuarioAtual.idade}</li>)}
+					{
+						usuarios.map((usuarioAtual, indice) => <li>Indice {indice}: {usuarioAtual.nome} - {usuarioAtual.idade}</li>)
+					}
 				</ul>
 			</section>
 			<section>
