@@ -25,3 +25,11 @@ Terça, quarta e quinta das 10h30 às 12h30.
 ============
 
 <img  width="150" src="https://img.shields.io/github/license/mashape/apistatus?color=gree&style=plastic" />
+
+============
+# Tecnologias utilizadas
+
+## Front End
+- HTML
+- CSS
+- Javascript
