@@ -1,5 +1,9 @@
 # Certified Tech Developer
+
+# Repo da Turma 1 FullTime CTD DH Evolution 2034
+
 ## 0822CDFEIIIWI01BRED0222FT
+
 
 ## Dias / Horários 
 
