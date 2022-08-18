@@ -19,6 +19,7 @@ Terça, quarta e quinta das 10h30 às 12h30.
 ============
 
 <img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 
 
 ## 🌎 Licença
